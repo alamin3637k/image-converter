@@ -15,5 +15,6 @@ try:
     cv2.imwrite(filename=file_name, img=img)
     print("converted")
 except Exception as error:
+    print(error)
     print("error")
     input()
